@@ -1,0 +1,169 @@
+.header {
+  position: relative;
+  top: 0; left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: -webkit-linear-gradient(rgba(140,26,233,1), rgba(83,3,166,1));
+  background: -o-linear-gradient(rgba(140,26,233,1), rgba(83,3,166,1));
+  background: -moz-linear-gradient(rgba(140,26,233,1), rgba(83,3,166,1));
+  background: linear-gradient(rgba(140,26,233,1), rgba(83,3,166,1));
+}
+
+@font-face {
+  font-family: 'SF-Heavy';
+  src: url("SF-Heavy.otf");
+ }
+
+ @font-face {
+   font-family: 'SF-Thin';
+   src: url("SF-Thin.otf");
+  }
+
+  @font-face {
+    font-family: 'SF-Regular';
+    src: url("SF-Regular.otf");
+   }
+
+ @font-face {
+   font-family: 'SF-Bold';
+   src: url("SF-Bold.otf");
+  }
+
+body {
+  background-image: url("bg_final.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo-image {
+  margin-left: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  height: 8%;
+}
+
+.nav {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.header-text {
+  height: 80%;
+  float: left;
+  width: 38%;
+  margin-left: 5%;
+  position: absolute;
+}
+
+.logotype-image {
+  height: 13%;
+  display: block;
+  float: right;
+  margin-top: 82%;
+  margin-bottom: 4%;
+}
+
+.tagline {
+  margin: 1.5% auto 1% auto;
+  text-align: right;
+  width: 80%;
+  color: rgba(255,255,255,0.5);
+  font-size: 19pt;
+  font-family: "SF-Regular", sans-serif;
+  line-height: 30pt;
+  display: block;
+  float: right;
+}
+
+.header-graphic {
+  height: 100%;
+  text-align: left;
+  float: right;
+  width: 65%;
+  margin-top: -1.5%;
+}
+
+.header-image {
+  height: 100%;
+  margin-left: 5%;
+}
+
+.carrot {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 3%; left: 0;
+}
+
+.carrot-image {
+  height: 1.75vh;
+}
+
+.features {
+  width: 100vw;
+}
+
+.feature {
+  height: 65%;
+}
+
+.feature-one, .feature-three {
+  margin-bottom: 2%;
+}
+
+.feature-image {
+  height: 96%;
+}
+
+.left-feature-image {
+  float: left;
+  width: 28%;
+  text-align: right;
+  margin-top: 2%;
+}
+
+.right-feature-image {
+  float: right;
+  width: 28%;
+  text-align: left;
+  margin-top: 2%;
+}
+
+.left-feature-tagline, .right-feature-tagline {
+  font-family: "SF-Bold", sans-serif;
+  font-size: 21pt;
+}
+
+.left-feature-content {
+  display: block;
+  margin-top: 4%;
+  padding-top: 15%;
+  padding-bottom: 18%;
+  padding-left: 34%;
+}
+
+.right-feature-content {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.62);
+  padding-top: 15%;
+  padding-bottom: 22%;
+  padding-right: 34%;
+  text-align: right;
+}
+
+.left-feature-description, .right-feature-description {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 12pt;
+  line-height: 20pt;
+  margin-top: 2%;
+  width: 60%;
+}
+
+.right-feature-description {
+  float: right;
+}
+
+.footer {
+  background-color: white;
+}
