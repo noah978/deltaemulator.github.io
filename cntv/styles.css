@@ -35,7 +35,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow-x: hidden !important;
 }
 
 .logo-image {
@@ -106,52 +105,53 @@ body {
 }
 
 .feature {
-  height: 67%;
-  display: flex;
-  align-items: center;
+  height: 65%;
+}
+
+.feature-one, .feature-three {
+  margin-bottom: 2%;
 }
 
 .feature-two, .feature-four {
-    background-color: rgba(255, 255, 255, 0.62);
+  background-color: rgba(255, 255, 255, 0.62);
 }
 
 .feature-image {
-  height: 94%;
+  height: 96%;
 }
 
 .left-feature-image {
   float: left;
-  width: 32%;
+  width: 28%;
   text-align: right;
-  margin-left: 8%;
+  margin-top: 2%;
 }
 
 .right-feature-image {
   float: right;
-  width: 32%;
+  width: 28%;
   text-align: left;
-  margin-right: 8%;
+  margin-top: 2%;
 }
 
 .left-feature-tagline, .right-feature-tagline {
   font-family: "SF-Bold", sans-serif;
   font-size: 21pt;
-  width: 80%;
-}
-
-.right-feature-tagline {
-  text-align: right;
-  float: right;
 }
 
 .left-feature-content {
   display: block;
-  padding-left: 4%;
+  margin-top: 4%;
+  padding-top: 15%;
+  padding-bottom: 18%;
+  padding-left: 34%;
 }
 
 .right-feature-content {
   display: block;
-  padding-right: 4%;
+  padding-top: 15%;
+  padding-bottom: 22%;
+  padding-right: 34%;
   text-align: right;
 }
 
