@@ -35,7 +35,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow-x: hidden !important;
+  overflow-x: hidden;
 }
 
 .header-text {
@@ -160,5 +160,13 @@ body {
 }
 
 .footer {
-  background-color: #f7f7f7;
+  background-color: rgba(255, 255, 255, 0.62);
+  width: 100vw;
+  height: 5%;
+  text-align: center;
+  font-family: "SF-Bold", sans-serif;
+  font-size: 10pt;
+  color: rgba(0,0,0,0.8);
+  padding-top: 2%;
+  overflow-y: hidden !important;
 }
